@@ -7,4 +7,9 @@ public class BerlinClock {
 		return (seconds%2==0)?"Y":"O";
 	}
 
+	public String convertHoursToFiveHoursRow(int minutes)
+	{
+		return "OOOO";
+	}
+
 }
