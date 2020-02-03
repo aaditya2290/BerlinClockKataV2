@@ -4,7 +4,7 @@ public class BerlinClock {
 
 	public String convertSecondsToSecondsLamp(int seconds)
 	{
-		return "Y";
+		return (seconds%2==0)?"Y":"O";
 	}
 
 }
