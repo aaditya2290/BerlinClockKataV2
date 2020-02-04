@@ -7,9 +7,12 @@ public class BerlinClock {
 		return (seconds%2==0)?"Y":"O";
 	}
 
-	public String convertHoursToFiveHoursRow(int minutes)
+	public String convertHoursToFiveHoursRow(int hours)
 	{
-		return "OOOO";
+		if (hours>=5 && hours<=9)
+			return "ROOO";
+		else
+			return "OOOO";
 	}
 
 }
